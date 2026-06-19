@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛡️ StegoApp Premium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cyber-bg" id="particles"></div>
+
+    <div class="glass-card">
+
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-shield-halved"></i>
+                <h1>StegoApp <span class="sub">Premium</span></h1>
+            </div>
+            <div class="status">
+                <span class="dot"></span>
+                <p>Système Opérationnel</p>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <div class="icon"><i class="fas fa-lock"></i></div>
+                <h3>Cacher un Message</h3>
+                <p>Cachez votre texte secret dans une image avec la méthode LSB.</p>
+                <a href="#" class="btn-primary" id="btn-encode">
+                    <i class="fas fa-upload"></i> Choisir une Image
+                </a>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fas fa-unlock"></i></div>
+                <h3>Extraire un Message</h3>
+                <p>Récupérez le message caché dans une image stéganographiée.</p>
+                <a href="#" class="btn-secondary" id="btn-decode">
+                    <i class="fas fa-download"></i> Extraire
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            🛡️ StegoApp Premium v3.0 — Projet de Soutenance 2026
+            <span id="live-clock"></span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
